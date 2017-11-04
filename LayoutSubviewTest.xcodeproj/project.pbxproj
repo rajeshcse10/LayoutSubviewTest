@@ -15,6 +15,10 @@
 		18C741291FAD89E40026A662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C741271FAD89E40026A662 /* LaunchScreen.storyboard */; };
 		18C741341FAD89E40026A662 /* LayoutSubviewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C741331FAD89E40026A662 /* LayoutSubviewTestTests.m */; };
 		18C7413F1FAD89E40026A662 /* LayoutSubviewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7413E1FAD89E40026A662 /* LayoutSubviewTestUITests.m */; };
+		18C7414E1FAD8E410026A662 /* MView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C7414D1FAD8E410026A662 /* MView.m */; };
+		18C741501FAD8E510026A662 /* MView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C7414F1FAD8E510026A662 /* MView.xib */; };
+		18C741531FAD8E800026A662 /* NView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C741521FAD8E800026A662 /* NView.m */; };
+		18C741551FAD8E8D0026A662 /* NView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C741541FAD8E8D0026A662 /* NView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		18C7413A1FAD89E40026A662 /* LayoutSubviewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutSubviewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C7413E1FAD89E40026A662 /* LayoutSubviewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LayoutSubviewTestUITests.m; sourceTree = "<group>"; };
 		18C741401FAD89E40026A662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C7414C1FAD8E410026A662 /* MView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MView.h; sourceTree = "<group>"; };
+		18C7414D1FAD8E410026A662 /* MView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MView.m; sourceTree = "<group>"; };
+		18C7414F1FAD8E510026A662 /* MView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MView.xib; sourceTree = "<group>"; };
+		18C741511FAD8E800026A662 /* NView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NView.h; sourceTree = "<group>"; };
+		18C741521FAD8E800026A662 /* NView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NView.m; sourceTree = "<group>"; };
+		18C741541FAD8E8D0026A662 /* NView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,12 @@
 				18C741271FAD89E40026A662 /* LaunchScreen.storyboard */,
 				18C7412A1FAD89E40026A662 /* Info.plist */,
 				18C741191FAD89E40026A662 /* Supporting Files */,
+				18C7414C1FAD8E410026A662 /* MView.h */,
+				18C7414D1FAD8E410026A662 /* MView.m */,
+				18C7414F1FAD8E510026A662 /* MView.xib */,
+				18C741511FAD8E800026A662 /* NView.h */,
+				18C741521FAD8E800026A662 /* NView.m */,
+				18C741541FAD8E8D0026A662 /* NView.xib */,
 			);
 			path = LayoutSubviewTest;
 			sourceTree = "<group>";
@@ -207,6 +223,7 @@
 				TargetAttributes = {
 					18C741151FAD89E40026A662 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YF9ES6Q873;
 						ProvisioningStyle = Automatic;
 					};
 					18C7412E1FAD89E40026A662 = {
@@ -247,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C741291FAD89E40026A662 /* LaunchScreen.storyboard in Resources */,
+				18C741551FAD8E8D0026A662 /* NView.xib in Resources */,
 				18C741261FAD89E40026A662 /* Assets.xcassets in Resources */,
+				18C741501FAD8E510026A662 /* MView.xib in Resources */,
 				18C741241FAD89E40026A662 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18C741211FAD89E40026A662 /* ViewController.m in Sources */,
+				18C741531FAD8E800026A662 /* NView.m in Sources */,
 				18C7411E1FAD89E40026A662 /* AppDelegate.m in Sources */,
+				18C7414E1FAD8E410026A662 /* MView.m in Sources */,
 				18C7411B1FAD89E40026A662 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF9ES6Q873;
 				INFOPLIST_FILE = LayoutSubviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SRBD.LayoutSubviewTest;
@@ -437,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YF9ES6Q873;
 				INFOPLIST_FILE = LayoutSubviewTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SRBD.LayoutSubviewTest;

@@ -7,16 +7,27 @@
 //
 
 #import "ViewController.h"
-
+#import "MView.h"
+#import "NView.h"
 @interface ViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ViewController{
+    MView *view1;
+    NView *view2;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    view1 = [[MView alloc]initWithFrame:self.mView.frame];
+    [self.mView addSubview:view1];
+    self.mViewHeightCon.constant = [view1 getHeight];
+    
+    
+    view2 = [[NView alloc]initWithFrame:self.nView.frame];
+    [self.nView addSubview:view2];
+    self.nViewHeightCon.constant = [view2 getHeight];
 }
 
 

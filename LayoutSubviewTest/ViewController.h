@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *mViewHeightCon;
 
+@property (weak, nonatomic) IBOutlet UIView *mView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *nViewHeightCon;
+@property (weak, nonatomic) IBOutlet UIView *nView;
 
 @end
 
